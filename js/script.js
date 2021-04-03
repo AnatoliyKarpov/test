@@ -14,7 +14,7 @@ const sectionProduct = document.querySelector('.product')
 const burgerMenu = document.querySelector('.menu__body')
 
 const sectionProductOptions = {
-   threshold: 0.4
+   threshold: 0.2
 }
 
 const hideLogo = function (entries, observer) {
@@ -216,7 +216,7 @@ function initProductionSwiper() {
          slidesOffsetBefore: 20,
          loop: true,
          breakpoints: {
-            350: {
+            421: {
                slidesOffsetBefore: 32,
             },
             450: {
@@ -272,7 +272,7 @@ function initCartSwiper() {
             320: {
                slidesOffsetBefore: 20,
             },
-            350: {
+            421: {
                slidesOffsetBefore: 32,
             },
             450: {
@@ -334,7 +334,7 @@ function initreviewSwiper() {
             320: {
                slidesOffsetBefore: 20,
             },
-            350: {
+            421: {
                slidesOffsetBefore: 32,
             },
             450: {
@@ -428,6 +428,11 @@ let slideImg = new Swiper('.cart-bottom__container', {
          spaceBetween: 25,
          slidesPerView: 1.2,
       },
+      421: {
+         slidesOffsetBefore: 32,
+         spaceBetween: 35,
+         slidesPerView: 1.2,
+      },
       480: {
          slidesOffsetBefore: 32,
          spaceBetween: 45,
@@ -507,24 +512,6 @@ slideImg.on('slideChange', function () {
    $(currentPrice).addClass('show');
 });
 
-
-
-
-
-
-
-
-
-// let contentBlock = document.querySelector('.cart-bottom__content');
-// let tabs = contentBlock.querySelectorAll('.cart-bottom__info');
-// slideImg.on('slideChange', function () {
-//    tabs.forEach(el => {
-//       el.classList.remove('show');
-//    })
-//    let currentSlide = ++slideImg.realIndex;
-//    let = currentTab = document.getElementById('tab-' + currentSlide);
-//    currentTab.classList.add('show');
-// });
 $(function() {
    $('.menu__link [href]').each(function() {
       if(this.href == window.location.href) {
