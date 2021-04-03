@@ -484,6 +484,24 @@ template {
   font-size: 3.375rem;
 }
 
+.header .bottom-header__subtitle,
+.company__subtitle,
+.additional__text,
+.product__text,
+.work .item__subtitle,
+.project__popup-text,
+.content__subtitle,
+.review__comment,
+.prod-page__text,
+.cart-top__info--text,
+.cart-bottom__text,
+.contacts__item--info {
+  line-height: 160%;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  letter-spacing: 0.05em;
+}
+
 .project__name,
 .prod-page .prod-page-item__name {
   position: absolute;
@@ -642,8 +660,8 @@ h6 {
 
 body {
   height: 100%;
-  font-family: Yanone;
   font-weight: 300;
+  font-family: Yanone;
   color: #473321;
   font-size: 1em;
   background-color: #fbf9f3;
@@ -830,9 +848,6 @@ body.lock {
 
 .header .bottom-header__subtitle {
   max-width: 23rem;
-  line-height: 160%;
-  font-family: Roboto;
-  font-size: 1.125rem;
   margin-bottom: 2rem;
 }
 
@@ -1012,10 +1027,7 @@ body.lock {
 }
 
 .company__subtitle {
-  font-size: 1.125rem;
-  font-family: Roboto;
   max-width: 43.375rem;
-  line-height: 160%;
 }
 
 .company__subtitle--gradient {
@@ -1100,9 +1112,6 @@ body.lock {
 .additional__text {
   text-align: center;
   max-width: 17.813rem;
-  line-height: 160%;
-  font-size: 1.063rem;
-  font-family: Roboto;
   margin-bottom: 3.125rem;
 }
 
@@ -1144,8 +1153,6 @@ body.lock {
 
 .product__text {
   font-size: 1.5rem;
-  font-family: Roboto;
-  line-height: 160%;
 }
 
 .product__btn {
@@ -1225,12 +1232,6 @@ body.lock {
   line-height: 131.5%;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
-}
-
-.work .item__subtitle {
-  font-family: Roboto;
-  font-size: 1.125rem;
-  line-height: 160%;
 }
 
 .project {
@@ -1351,12 +1352,6 @@ body.lock {
   margin-bottom: 20px;
 }
 
-.project__popup-text {
-  font-family: Roboto;
-  font-size: 1.125rem;
-  line-height: 160%;
-}
-
 .project__popup-btn {
   margin-top: 40px;
 }
@@ -1412,9 +1407,6 @@ body.lock {
 }
 
 .content__subtitle {
-  font-size: 1.125rem;
-  font-family: Roboto;
-  line-height: 160%;
   min-width: 22.250rem;
   padding: 0.875em 0;
 }
@@ -1517,10 +1509,7 @@ body.lock {
 }
 
 .review__comment {
-  font-family: Roboto;
-  font-size: 1.125rem;
   padding: 1.563rem;
-  line-height: 160%;
   flex: 1 1 auto;
 }
 
@@ -1758,9 +1747,6 @@ body.lock {
 }
 
 .prod-page__text {
-  font-size: 1.125rem;
-  line-height: 160%;
-  font-family: Roboto;
   padding-bottom: 37px;
 }
 
@@ -1983,10 +1969,7 @@ body.lock {
 }
 
 .cart-top__info--text {
-  font-size: 1.125rem;
   max-width: 25rem;
-  line-height: 160%;
-  font-family: Roboto;
   display: block;
   position: relative;
 }
@@ -2215,9 +2198,6 @@ body.lock {
 
 .cart-bottom__text {
   max-width: 100%;
-  font-size: 1.125rem;
-  line-height: 160%;
-  font-family: Roboto;
   position: relative;
 }
 
@@ -3481,12 +3461,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   grid-column: 3/4;
   display: grid;
   grid-template-rows: repeat(3, 1fr) 2fr repeat(2, 1fr);
-}
-
-.contacts__item--info {
-  line-height: 160%;
-  font-size: 1.125rem;
-  font-family: Roboto;
 }
 
 .contacts__social--list {
